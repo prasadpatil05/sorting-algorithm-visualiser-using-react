@@ -1,0 +1,35 @@
+.bar {
+	border-radius: 5px 5px 0 0;
+	width: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #818181;
+}
+
+.text {
+	text-align: center;
+	transform: rotate(-90deg);
+	font-family: 'mono';
+	outline: none;
+}
+
+.quantity-button {
+	text-align: center;
+	background: rgb(211, 213, 213);
+	margin: 1px;
+    cursor:auto;
+}
+
+.quantity-button::hover {
+    opacity: 0.5;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type='number'] {
+	-moz-appearance: textfield;
+}
